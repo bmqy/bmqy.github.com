@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /node_modules
+Disallow: /scaffolds
+Disallow: /_config.yml
+Disallow: /db.json
+Disallow: /debug.log
+Disallow: /.gitignore
+Disallow: /*?*
+Disallow: /*?
+Sitemap: http://www.bmqy.net/baidusitemap.xml
+Sitemap: http://www.bmqy.net/sitemap.xml
