@@ -79,7 +79,7 @@ deploy:
   pass: D55Mf3RjBgrniajgF
   remote: /www/
   port: 21
-  ignore: ["robots.txt", "BingSiteAuth.xml", "baidu_verify_ByQHSIHLzM.html", "bdunion.txt", "chinadmoz.txt", "googlefabe3b86ab8abb32.html", "hello51la64v93w6c22sh2gqz.html", "sogousiteverification.txt", "wb_79709fa0eac3d72d.txt", "tc_verify.txt", "shenma-site-verification.txt", "root.txt"]
+  ignore: ["robots.txt", "BingSiteAuth.xml", "baidu_verify_ByQHSIHLzM.html", "bdunion.txt", "chinadmoz.txt", "googlefabe3b86ab8abb32.html", "hello51la64v93w6c22sh2gqz.html", "sogousiteverification.txt", "wb_79709fa0eac3d72d.txt", "tc_verify.txt", "shenma-site-verification.txt", "root.txt", "silian.txt"]
   connections: 1 #使用的连接数
   verbose: false #显示调试信息
 
