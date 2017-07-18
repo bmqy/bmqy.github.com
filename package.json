@@ -27,7 +27,13 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
     "hexo-util": "^0.6.0",
-    "hexo-wordcount": "^2.0.1"
+    "hexo-wordcount": "^2.0.1",
+    "html-to-text": "^3.3.0",
+    "match-words": "^1.0.0",
+    "numeral": "^2.0.6",
+    "sprintf-js": "^1.1.1",
+    "util-deprecate": "^1.0.2",
+    "wordcount": "^1.1.1"
   },
   "main": "index.js",
   "devDependencies": {},

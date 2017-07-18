@@ -21,4 +21,4 @@
 </div>
 {% endif %}
 
-{% include 'eevee/eevee.swig' %}
+{% include '../_custom/eevee/eevee.swig' %}
