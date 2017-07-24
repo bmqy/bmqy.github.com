@@ -1,9 +1,9 @@
----
+﻿---
 title: php-5.5.14+Apache-2.4.9+xDebug安装配置
 tags:
-  - Apache2.4.9
+  - apache2.4.9
   - php5.5.14
-  - xDebug安装
+  - xdebug安装
 id: 68
 categories:
   - 燕衔春泥

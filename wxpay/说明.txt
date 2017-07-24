@@ -1,0 +1,47 @@
+pemapi.php
+此文件用于上传、删除pem证书文件
+
+payapi.php
+此文件用于常规的post操作
+
+sslapi.php
+此文件用于带有证书的操作
+
+
+例子：
+wxpayapiurl="http://xxxx.com/payapi.php"
+post_url= "https://api.mch.weixin.qq.com/pay/unifiedorder"
+postData =  "<xml>" & vbCrlf
+postData = postData & "   <appid>wx2421b1c4370ec43b</appid>" & vbCrlf
+postData = postData & "   <attach>支付测试</attach>" & vbCrlf
+postData = postData & "   <body>JSAPI支付测试</body>" & vbCrlf
+postData = postData & "   <mch_id>10000100</mch_id>" & vbCrlf
+postData = postData & "   <nonce_str>1add1a30ac87aa2db72f57a2375d8fec</nonce_str>" & vbCrlf
+postData = postData & "   <notify_url>http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php</notify_url 
+
+>" & vbCrlf
+postData = postData & "   <openid>oUpF8uMuAJO_M2pxb1Q9zNjWeS6o</openid>" & vbCrlf
+postData = postData & "   <out_trade_no>1415659990</out_trade_no>" & vbCrlf
+postData = postData & "   <spbill_create_ip>14.23.150.211</spbill_create_ip>" & vbCrlf
+postData = postData & "   <total_fee>1</total_fee>" & vbCrlf
+postData = postData & "   <trade_type>JSAPI</trade_type>" & vbCrlf
+postData = postData & "   <sign>0CB01533B8C1EF103065174F50BCA001</sign>" & vbCrlf
+postData = postData & "</xml>" & vbCrlf
+
+
+returnXml=PostURL(wxpayapiurl&"?url="&post_url,postData)
+
+
+returnXml就会获取到官方返回的数据：
+
+<xml>
+   <return_code><![CDATA[SUCCESS]]></return_code>
+   <return_msg><![CDATA[OK]]></return_msg>
+   <appid><![CDATA[wx2421b1c4370ec43b]]></appid>
+   <mch_id><![CDATA[10000100]]></mch_id>
+   <nonce_str><![CDATA[IITRi8Iabbblz1Jc]]></nonce_str>
+   <sign><![CDATA[7921E432F65EB8ED0CE9755F0E86D72F]]></sign>
+   <result_code><![CDATA[SUCCESS]]></result_code>
+   <prepay_id><![CDATA[wx201411101639507cbf6ffd8b0779950874]]></prepay_id>
+   <trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>

@@ -1,8 +1,8 @@
----
+﻿---
 title: 华为Mate8（B584）root过程简要记录
 tags:
-  - Mate8
-  - Mate8 root
+  - mate8
+  - mate8 root
   - 华为
 id: 482
 categories:

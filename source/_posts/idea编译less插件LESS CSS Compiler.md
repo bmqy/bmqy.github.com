@@ -16,4 +16,4 @@ idea插件地址：[LESS CSS Compiler](https://plugins.jetbrains.com/plugin?pr=&
 
 能不能下载看运气。。
 
-<span style="color: rgb(255, 0, 0);">PS：配置自动编译less，请移步</span>[idea配置less自动编译](http://www.bmqy.net/433.html "idea配置less自动编译")
+<span style="color: rgb(255, 0, 0);">PS：配置自动编译less，请移步</span>[idea配置less自动编译](http://www.bmqy.net/55120.html "idea配置less自动编译")

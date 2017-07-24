@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.bmqy.net
 root: /
-permalink: /:abbrlink.html
+permalink: :abbrlink.html
 permalink_defaults:
 
 # abbrlink config 固定链接
@@ -25,9 +25,9 @@ abbrlink:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: tag
 archive_dir: archives
-category_dir: categories
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -79,7 +79,7 @@ deploy:
   pass: D55Mf3RjBgrniajgF
   remote: /www/
   port: 21
-  ignore: ["robots.txt", "BingSiteAuth.xml", "baidu_verify_ByQHSIHLzM.html", "bdunion.txt", "chinadmoz.txt", "googlefabe3b86ab8abb32.html", "hello51la64v93w6c22sh2gqz.html", "sogousiteverification.txt", "wb_79709fa0eac3d72d.txt", "tc_verify.txt", "shenma-site-verification.txt", "root.txt", "silian.txt"]
+  ignore: ["robots.txt", "BingSiteAuth.xml", "baidu_verify_ByQHSIHLzM.html", "bdunion.txt", "chinadmoz.txt", "googlefabe3b86ab8abb32.html", "hello51la64v93w6c22sh2gqz.html", "sogousiteverification.txt", "wb_79709fa0eac3d72d.txt", "tc_verify.txt", "shenma-site-verification.txt", "root.txt", "/wxpay/", "silian.txt"]
   connections: 1 #使用的连接数
   verbose: false #显示调试信息
 
