@@ -14,11 +14,13 @@ date: 2017-02-21 17:04:52
 使用ASP解析 JSON，
 
 第一个方法是使用&nbsp;JScript ：
-```vb 
+```js 
 <script language="jscript" runat="server">  
     Array.prototype.get = function(x) { return this[x]; };  
     function parseJSON(strJSON) { return eval("(" + strJSON + ")"); }  
 </script>  
+```
+```vb
     <%  
     Dim json, obj  
     json = "{a:""aaa"", b:{ name:""bb"", value:""text"" }, c:[""item0"", ""item1"", ""item2""]}"  
