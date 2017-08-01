@@ -1,7 +1,8 @@
 {%
   set js_commons = [
     'src/utils.js',
-    'src/motion.js'
+    'src/motion.js',
+    'src/mouse_click_effects.js'
   ]
 %}
 
