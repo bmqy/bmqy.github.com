@@ -1,0 +1,38 @@
+<style>body {
+    background-image: url(css/imgs/bg.jpg);
+}
+
+.page {
+    width: 500px;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.page .logo {
+    margin-bottom: 20px;
+    box-shadow: 0 0 19px 1px #5879af;
+}
+
+footer {
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.links {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.links a {
+    color: #666;
+    font-size: 12px;
+}
+
+.links a:hover {
+    color: #5879af;
+}
+
+</style>
