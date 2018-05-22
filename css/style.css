@@ -2,18 +2,17 @@ body {
     background-image: url(imgs/bg.jpg);
 }
 
-.page {
-    width: 500px;
+.header {
     margin: 10% auto;
     text-align: center;
 }
 
-.page .logo {
+.header .logo {
     margin-bottom: 20px;
     box-shadow: 0 0 19px 1px #5879af;
 }
 
-footer {
+.footer {
     padding: 10px 0;
     position: absolute;
     left: 0;
@@ -21,16 +20,16 @@ footer {
     bottom: 0;
 }
 
-.links {
+.footer .links {
     margin: 0 auto;
     text-align: center;
 }
 
-.links a {
+.footer .links a {
     color: #666;
     font-size: 12px;
 }
 
-.links a:hover {
+.footer .links a:hover {
     color: #5879af;
 }
